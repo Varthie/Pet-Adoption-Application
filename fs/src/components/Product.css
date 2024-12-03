@@ -1,0 +1,159 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.products 
+{
+    padding: 30px 40px;
+    width: 100%;
+}
+
+.products h2 
+{
+    font-size: 42px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+}
+
+.products p 
+{
+    margin-top: 15px;
+    color: #9a9a9a;
+}
+
+.products  .containe3
+{
+    margin-top: 20px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products  .containe3 .filler 
+{
+    padding: 10px 20px;
+}
+
+.products  .containe3 .filler .categories h3
+{
+    color: #010101;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.products  .containe3 .filler .categories ul
+{
+     margin-top: 10px;
+}
+
+.products  .containe3 .filler .categories ul li 
+{
+    list-style: none;
+    margin-top: 20px;
+    color:#010f1c;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.products  .containe3 .productbox 
+{
+    margin-right: 0%;
+}
+
+.products  .containe3 .productbox .contain
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products .containe3 .productbox .contain .box {
+    padding: 10px 20px;
+    overflow: hidden;
+    width: 300px;
+    height: 440px;
+    border: 1px solid rgb(57, 13, 74);
+    margin-bottom: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.products .containe3 .productbox .contain .box:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.products .containe3 .productbox .contain .box .img_box 
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e0e0;
+}
+
+.products .containe3 .productbox .contain .box .img_box img 
+{
+    width: 300px;
+    height: 250px;
+    margin-right: 60px;
+}
+
+.products .containe3 .productbox .contain .box .detail
+{
+    margin-top: 10px;
+}
+
+.products .containe3 .productbox .contain .box  .detail p{
+    color: #9a9a99;
+    font-size: 14px;
+}
+
+.products .containe3 .productbox .contain .box  .detail h4
+{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #010f1c;
+    transition: 0.5s;
+}
+
+.products .containe3 .productbox .contain .box:hover .detail h4
+{
+    color: #651cb8;
+}
+
+.products .containe3 .productbox .contain .box .detail h5 
+{
+    margin-top: 5px;
+    font-size: 14px;
+    color:#651cb8;
+    letter-spacing: 1px;
+}
+
+
+.products .containe3 .productbox .contain .box .detail button{
+    background: #96a;
+    padding:7px 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.products .containe3 .productbox .contain .box .detail button:hover:focus:active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

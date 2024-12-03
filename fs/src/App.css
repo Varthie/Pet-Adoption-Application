@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.menu .navbar {
+    background-color: #343a40; /* Dark background */
+  }
+  .menu .navbar-brand, .nav-link {
+    color: #ffffff !important; /* White text */
+  }
+  .menu .nav-link:hover {
+    color: #f8f9fa !important; /* Lighter text on hover */
+  }
+  .menu .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* White border for toggler */
+  }
+  .menu .dropdown-menu {
+    background-color: #343a40; /* Dropdown background same as navbar */
+    border: none;
+  }
+  .menu .dropdown-item {
+    color: #ffffff !important;
+  }
+  .menu .dropdown-item:hover {
+    background-color: #495057; /* Slightly lighter background on hover */
+  }
+  .menu li a:hover{
+    color: red!important;
+  }
+  .form-select:focus{
+    box-shadow: 0px 0px #ff1362!important;
+  }
+
+  .divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+h3{
+  font-family: "Roboto", sans-serif;
+}
+.faTrashCan{
+  color: red;
+  font-size: 18px;
+}

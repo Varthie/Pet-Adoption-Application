@@ -1,0 +1,99 @@
+.breeds .containe3
+{
+    margin-top: 20px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.breeds  .containe3 .filler 
+{
+    padding: 10px 20px;
+}
+
+.breeds  .containe3 .filler .categories h3
+{
+    color: #010101;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: rgb(234, 212, 234);
+}
+
+.breeds   .containe3 .filler .categories ul
+{
+     margin-top: 10px;
+}
+
+.breeds   .containe3 .filler .categories ul li 
+{
+    list-style: none;
+    margin-top: 20px;
+    color:#010f1c;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+
+
+.breeds   .coontain  .box {
+    padding: 10px 20px;
+    overflow: hidden;
+    width: 350px;
+    height: 400px;
+    border: 1px solid rgb(57, 13, 74);
+    margin-bottom: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.breeds   .coontain .box:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.breeds   .coontain .box .img_box 
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e0e0;
+}
+
+.breeds   .coontain .box .img_box img 
+{
+    width: 300px;
+    height: 250px;
+    margin-right: 60px;
+}
+
+.breeds   .coontain .box .detail
+{
+    margin-top: 10px;
+}
+
+.breeds   .coontain .box  .detail p{
+    color: #9a9a99;
+    font-size: 14px;
+}
+
+.breeds   .coontain.box  .detail h4
+{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #010f1c;
+    transition: 0.5s;
+}
+
+.breeds   .coontain .box:hover .detail h4
+{
+    color: #651cb8;
+}
+
+.breeds   .coontain .box .detail h5 
+{
+    margin-top: 5px;
+    font-size: 14px;
+    color:#651cb8;
+    letter-spacing: 1px;
+}

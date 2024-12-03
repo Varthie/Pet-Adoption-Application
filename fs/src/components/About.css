@@ -1,0 +1,38 @@
+*
+{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
+.about {
+    padding: 30px 40px;
+    width: 100%;
+    background: #a897c1;
+}
+
+.about h2
+{
+    font-size: 59px;
+    color: #010f1c;
+    font-weight: bold;
+    transition: 0.4s;
+    border-bottom: 1px solid #7b7290;
+}
+.about h2:hover 
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about p
+{
+    margin-top: 15px;
+font-size: 18px;
+
+}
+.about h4
+{
+    font-size: 32px;
+    font-weight: bold;
+}

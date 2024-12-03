@@ -1,0 +1,162 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.free
+{
+    padding: 2px 20px;
+    width: 100%;
+    background: #010f1c ;
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.free .icon
+{
+    color: #9779b3 ;
+    font-size: 30px;
+}
+
+.free p 
+{
+
+color: rgb(214, 180, 223);
+margin-top: 10px;
+margin-left: 8px;
+font-size: 16px;
+font-weight: 600;
+}
+
+.main_header {
+    padding: 10px 35px;
+    width: 100%;
+    border-bottom: 1px solid  #010f1c;
+}
+
+.main_header .cntainer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo
+{
+  width:100px;
+  height: 100px;
+
+}
+
+.main_header .cntainer .logo img{
+    width:250px;
+    height:110px;
+    
+}
+.main_header .cntainer .icon
+{
+    display: flex;
+    margin-right: 50px;
+}
+
+.main_header .cntainer .icon .account 
+{
+ display: flex;
+ margin-right: 25px;
+}
+
+.main_header .cntainer .icon .account .user_icon
+{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #010f1c;
+    cursor: pointer;
+}
+
+.main_header .cntainer .icon .account  p
+{
+    margin-right: 4px;
+    margin-top: 7px;
+}
+
+.main_header .cntainer .icon .second_icon 
+{
+    display: flex;
+  
+}
+.main_header .cntainer .icon .second_icon .link
+{
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #010f1c;
+}
+
+.header{
+    width: 100%;
+   padding: 20px 25px;
+   box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+}
+
+.header .cntainer
+{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.header .cntainer .nav ul
+{
+    display: flex;
+}
+
+.header .cntainer .nav ul li
+{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header .cntainer .nav ul li .link{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+}
+
+.header .cntainer .nav ul li .link:hover
+{
+    color: #9779b3;
+}
+
+.header .cntainer .auth {
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header .cntainer .auth button {
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.second_icon span:nth-child(1) {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.second_icon span:nth-child(2) 
+{
+    padding:0 0 1px 6px;
+    height: 22px;
+    width: 22px;
+    background-color: red;
+    color: azure;
+    font-weight: bold;
+    border-radius: 9px;
+    position: relative;
+}
